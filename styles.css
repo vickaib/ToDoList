@@ -1,0 +1,58 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #97cfdf; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+.container {
+    width: 40vw; 
+    height: 40vh;
+    background-color: #fff; 
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-container {
+    width: 40%;
+    border: 1px solid black;
+}
+
+.list-container {
+    width: 60%;
+    border: 1px solid black;
+}
+
+.container .label {
+    position: absolute;
+    bottom: 5%; 
+    left: 5%;
+    color: #333;
+    font-size: 14px;
+}
+
+.container .list-icon {
+    position: absolute;
+    top: 5%; 
+    left: 5%;
+    color: #333;
+    font-size: 28px;
+}
+
+.reminder-input {
+    padding: 30px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    opacity: 0.8;
+}
