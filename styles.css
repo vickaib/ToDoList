@@ -1,3 +1,7 @@
+li {
+    padding-bottom: 10px;
+}
+
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     background-color: #97cfdf; 
@@ -22,12 +26,10 @@ body {
 
 .icon-container {
     width: 40%;
-    border: 1px solid black;
 }
 
 .list-container {
     width: 60%;
-    border: 1px solid black;
 }
 
 .container .label {
