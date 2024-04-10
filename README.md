@@ -1,5 +1,7 @@
 # To Do List
 https://vickaib.github.io/ToDoList/
+
+## Description
 Basic example of a to do list. 
 
 ## Challenges
